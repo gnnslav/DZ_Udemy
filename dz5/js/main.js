@@ -89,4 +89,6 @@ console.log(appData);
 for(var key in appData){
     console.log('Наша программа включает в себя данные: ' + key + ' ' + appData[key]);
 }
-
+var y=1;
+var x=y=2;
+console.log(0||''||2||undefined||true||false);
