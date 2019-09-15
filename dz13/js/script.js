@@ -147,6 +147,7 @@ window.addEventListener('DOMContentLoaded', function(){
 
         let formData = new FormData(form);
         let obj = {};
+        
 
         formData.forEach(function (value, key){
             obj[key] = value;
